@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  
   <title>Four card feature section</title>
 </head>
 <body>
   <div class="container">
     
-    <h1>Reliable, efficient delivery</h1>
-    <h2>Powered by Technology</h2>
-    <p>
+    <h1 class="container__title">Reliable, efficient delivery</h1>
+    <h2 class="container__subtitle">Powered by Technology</h2>
+    <p class="container__info">
       Our Artificial Intelligence powered tools use millions of project
       data points to ensure that your project is successful
     </p>
@@ -21,7 +23,7 @@
     <div class="card-container">
       <div class="card" id="one">
         <div class="card-info">
-          <h3>Supervisor</h3>
+          <h3 class="card__title">Supervisor</h3>
           <p>Monitors activity to identify project roadblocks</p>
         </div>
         <div class="card-img">
@@ -31,7 +33,7 @@
       <div class="two-card-container">
         <div class="card" id="two">
           <div class="card-info">
-            <h3>Team Builder</h3>
+            <h3 class="card__title">Team Builder</h3>
             <p>Scans our talent network to create the optimal team for your project
             </p>
           </div>
@@ -41,7 +43,7 @@
         </div>
         <div class="card" id="three">
           <div class="card-info">
-            <h3>Karma</h3>
+            <h3 class="card__title">Karma</h3>
             <p>Regularly evaluates our talent to ensure quality</p>
           </div>
           <div class="card-img">
@@ -51,7 +53,7 @@
       </div>
       <div class="card" id="four">
         <div class="card-info">
-          <h3>Calculator</h3>
+          <h3 class="card__title">Calculator</h3>
           <p>Uses data from past projects to provide better delivery estimates</p>
         </div>
         <div class="card-img">
@@ -59,11 +61,8 @@
         </div>
       </div>
     </div>
-  
   </div>
-  
 
-  
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
